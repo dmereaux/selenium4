@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="selenium4.RechercheTest" time="26.154" tests="3" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="22"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/dominiquemereaux/eclipse-workspace2/selenium4/target/test-classes:/Users/dominiquemereaux/eclipse-workspace2/selenium4/target/classes:/Users/dominiquemereaux/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.8.1/junit-jupiter-params-5.8.1.jar:/Users/dominiquemereaux/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.1/junit-jupiter-api-5.8.1.jar:/Users/dominiquemereaux/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/dominiquemereaux/.m2/repository/org/junit/platform/junit-platform-commons/1.8.1/junit-platform-commons-1.8.1.jar:/Users/dominiquemereaux/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/dominiquemereaux/.m2/repository/org/seleniumhq/selenium/selenium-java/4.19.1/selenium-java-4.19.1.jar:/Users/dominiquemereaux/.m2/repository/org/seleniumhq/selenium/selenium-api/4.19.1/selenium-api-4.19.1.jar:/Users/dominiquemereaux/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.19.1/selenium-chrome-driver-4.19.1.jar:/Users/dominiquemereaux/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/dominiquemereaux/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.19.1/selenium-chromium-driver-4.19.1.jar:/Users/dominiquemereaux/.m2/repository/org/seleniumhq/selenium/selenium-json/4.19.1/selenium-json-4.19.1.jar:/Users/dominiquemereaux/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.19.1/selenium-manager-4.19.1.jar:/Users/dominiquemereaux/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v121/4.19.1/selenium-devtools-v121-4.19.1.jar:/Users/dominiquemereaux/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v122/4.19.1/selenium-devtools-v122-4.19.1.jar:/Users/dominiquemereaux/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v123/4.19.1/selenium-devtools-v123-4.19.1.jar:/Users/dominiquemereaux/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.19.1/selenium-devtools-v85-4.19.1.jar:/Users/dominiquemereaux/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.19.1/selenium-edge-driver-4.19.1.jar:/Users/dominiquemereaux/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.19.1/selenium-firefox-driver-4.19.1.jar:/Users/dominiquemereaux/.m2/repository/org/seleniumhq/selenium/selenium-http/4.19.1/selenium-http-4.19.1.jar:/Users/dominiquemereaux/.m2/repository/dev/failsafe/failsafe/3.3.2/failsafe-3.3.2.jar:/Users/dominiquemereaux/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.19.1/selenium-ie-driver-4.19.1.jar:/Users/dominiquemereaux/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.19.1/selenium-remote-driver-4.19.1.jar:/Users/dominiquemereaux/.m2/repository/com/google/guava/guava/33.1.0-jre/guava-33.1.0-jre.jar:/Users/dominiquemereaux/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/Users/dominiquemereaux/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/dominiquemereaux/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/dominiquemereaux/.m2/repository/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.jar:/Users/dominiquemereaux/.m2/repository/com/google/errorprone/error_prone_annotations/2.26.1/error_prone_annotations-2.26.1.jar:/Users/dominiquemereaux/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/Users/dominiquemereaux/.m2/repository/io/opentelemetry/semconv/opentelemetry-semconv/1.23.1-alpha/opentelemetry-semconv-1.23.1-alpha.jar:/Users/dominiquemereaux/.m2/repository/io/opentelemetry/opentelemetry-api/1.36.0/opentelemetry-api-1.36.0.jar:/Users/dominiquemereaux/.m2/repository/io/opentelemetry/opentelemetry-context/1.36.0/opentelemetry-context-1.36.0.jar:/Users/dominiquemereaux/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.36.0/opentelemetry-exporter-logging-1.36.0.jar:/Users/dominiquemereaux/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.36.0/opentelemetry-sdk-common-1.36.0.jar:/Users/dominiquemereaux/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.36.0/opentelemetry-sdk-extension-autoconfigure-spi-1.36.0.jar:/Users/dominiquemereaux/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.36.0/opentelemetry-sdk-extension-autoconfigure-1.36.0.jar:/Users/dominiquemereaux/.m2/repository/io/opentelemetry/opentelemetry-api-events/1.36.0-alpha/opentelemetry-api-events-1.36.0-alpha.jar:/Users/dominiquemereaux/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.36.0/opentelemetry-sdk-trace-1.36.0.jar:/Users/dominiquemereaux/.m2/repository/io/opentelemetry/opentelemetry-extension-incubator/1.36.0-alpha/opentelemetry-extension-incubator-1.36.0-alpha.jar:/Users/dominiquemereaux/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.36.0/opentelemetry-sdk-1.36.0.jar:/Users/dominiquemereaux/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.36.0/opentelemetry-sdk-metrics-1.36.0.jar:/Users/dominiquemereaux/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.36.0/opentelemetry-sdk-logs-1.36.0.jar:/Users/dominiquemereaux/.m2/repository/net/bytebuddy/byte-buddy/1.14.12/byte-buddy-1.14.12.jar:/Users/dominiquemereaux/.m2/repository/org/seleniumhq/selenium/selenium-os/4.19.1/selenium-os-4.19.1.jar:/Users/dominiquemereaux/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/dominiquemereaux/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.19.1/selenium-safari-driver-4.19.1.jar:/Users/dominiquemereaux/.m2/repository/org/seleniumhq/selenium/selenium-support/4.19.1/selenium-support-4.19.1.jar:/Users/dominiquemereaux/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Europe/Paris"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="22"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="FR"/>
+    <property name="sun.boot.library.path" value="/Users/dominiquemereaux/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_22.0.1.v20240426-1149/jre/lib"/>
+    <property name="sun.java.command" value="/Users/dominiquemereaux/eclipse-workspace2/selenium4/target/surefire/surefirebooter-20251119212728652_3.jar /Users/dominiquemereaux/eclipse-workspace2/selenium4/target/surefire 2025-11-19T21-27-28_611-jvmRun1 surefire-20251119212728652_1tmp surefire_0-20251119212728652_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/dominiquemereaux/eclipse-workspace2/selenium4/target/test-classes:/Users/dominiquemereaux/eclipse-workspace2/selenium4/target/classes:/Users/dominiquemereaux/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.8.1/junit-jupiter-params-5.8.1.jar:/Users/dominiquemereaux/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.1/junit-jupiter-api-5.8.1.jar:/Users/dominiquemereaux/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/dominiquemereaux/.m2/repository/org/junit/platform/junit-platform-commons/1.8.1/junit-platform-commons-1.8.1.jar:/Users/dominiquemereaux/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/dominiquemereaux/.m2/repository/org/seleniumhq/selenium/selenium-java/4.19.1/selenium-java-4.19.1.jar:/Users/dominiquemereaux/.m2/repository/org/seleniumhq/selenium/selenium-api/4.19.1/selenium-api-4.19.1.jar:/Users/dominiquemereaux/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.19.1/selenium-chrome-driver-4.19.1.jar:/Users/dominiquemereaux/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/dominiquemereaux/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.19.1/selenium-chromium-driver-4.19.1.jar:/Users/dominiquemereaux/.m2/repository/org/seleniumhq/selenium/selenium-json/4.19.1/selenium-json-4.19.1.jar:/Users/dominiquemereaux/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.19.1/selenium-manager-4.19.1.jar:/Users/dominiquemereaux/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v121/4.19.1/selenium-devtools-v121-4.19.1.jar:/Users/dominiquemereaux/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v122/4.19.1/selenium-devtools-v122-4.19.1.jar:/Users/dominiquemereaux/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v123/4.19.1/selenium-devtools-v123-4.19.1.jar:/Users/dominiquemereaux/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.19.1/selenium-devtools-v85-4.19.1.jar:/Users/dominiquemereaux/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.19.1/selenium-edge-driver-4.19.1.jar:/Users/dominiquemereaux/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.19.1/selenium-firefox-driver-4.19.1.jar:/Users/dominiquemereaux/.m2/repository/org/seleniumhq/selenium/selenium-http/4.19.1/selenium-http-4.19.1.jar:/Users/dominiquemereaux/.m2/repository/dev/failsafe/failsafe/3.3.2/failsafe-3.3.2.jar:/Users/dominiquemereaux/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.19.1/selenium-ie-driver-4.19.1.jar:/Users/dominiquemereaux/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.19.1/selenium-remote-driver-4.19.1.jar:/Users/dominiquemereaux/.m2/repository/com/google/guava/guava/33.1.0-jre/guava-33.1.0-jre.jar:/Users/dominiquemereaux/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/Users/dominiquemereaux/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/dominiquemereaux/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/dominiquemereaux/.m2/repository/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.jar:/Users/dominiquemereaux/.m2/repository/com/google/errorprone/error_prone_annotations/2.26.1/error_prone_annotations-2.26.1.jar:/Users/dominiquemereaux/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/Users/dominiquemereaux/.m2/repository/io/opentelemetry/semconv/opentelemetry-semconv/1.23.1-alpha/opentelemetry-semconv-1.23.1-alpha.jar:/Users/dominiquemereaux/.m2/repository/io/opentelemetry/opentelemetry-api/1.36.0/opentelemetry-api-1.36.0.jar:/Users/dominiquemereaux/.m2/repository/io/opentelemetry/opentelemetry-context/1.36.0/opentelemetry-context-1.36.0.jar:/Users/dominiquemereaux/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.36.0/opentelemetry-exporter-logging-1.36.0.jar:/Users/dominiquemereaux/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.36.0/opentelemetry-sdk-common-1.36.0.jar:/Users/dominiquemereaux/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.36.0/opentelemetry-sdk-extension-autoconfigure-spi-1.36.0.jar:/Users/dominiquemereaux/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.36.0/opentelemetry-sdk-extension-autoconfigure-1.36.0.jar:/Users/dominiquemereaux/.m2/repository/io/opentelemetry/opentelemetry-api-events/1.36.0-alpha/opentelemetry-api-events-1.36.0-alpha.jar:/Users/dominiquemereaux/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.36.0/opentelemetry-sdk-trace-1.36.0.jar:/Users/dominiquemereaux/.m2/repository/io/opentelemetry/opentelemetry-extension-incubator/1.36.0-alpha/opentelemetry-extension-incubator-1.36.0-alpha.jar:/Users/dominiquemereaux/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.36.0/opentelemetry-sdk-1.36.0.jar:/Users/dominiquemereaux/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.36.0/opentelemetry-sdk-metrics-1.36.0.jar:/Users/dominiquemereaux/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.36.0/opentelemetry-sdk-logs-1.36.0.jar:/Users/dominiquemereaux/.m2/repository/net/bytebuddy/byte-buddy/1.14.12/byte-buddy-1.14.12.jar:/Users/dominiquemereaux/.m2/repository/org/seleniumhq/selenium/selenium-os/4.19.1/selenium-os-4.19.1.jar:/Users/dominiquemereaux/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/dominiquemereaux/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.19.1/selenium-safari-driver-4.19.1.jar:/Users/dominiquemereaux/.m2/repository/org/seleniumhq/selenium/selenium-support/4.19.1/selenium-support-4.19.1.jar:/Users/dominiquemereaux/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/dominiquemereaux"/>
+    <property name="user.language" value="fr"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-04-16"/>
+    <property name="java.home" value="/Users/dominiquemereaux/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_22.0.1.v20240426-1149/jre"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/dominiquemereaux/eclipse-workspace2/selenium4"/>
+    <property name="style.color" value="always"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/dominiquemereaux/eclipse-workspace2/selenium4/target/surefire/surefirebooter-20251119212728652_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="22.0.1+8"/>
+    <property name="user.name" value="dominiquemereaux"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="otel.metrics.exporter" value="none"/>
+    <property name="os.version" value="15.6.1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="otel.traces.exporter" value="none"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-22.0.1+8"/>
+    <property name="localRepository" value="/Users/dominiquemereaux/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="otel.logs.exporter" value="none"/>
+    <property name="java.io.tmpdir" value="/var/folders/3b/z_3bn4n12j59v3g7l9pm1x8r0000gn/T/"/>
+    <property name="java.version" value="22.0.1"/>
+    <property name="user.dir" value="/Users/dominiquemereaux/eclipse-workspace2/selenium4"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/dominiquemereaux/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="22.0.1+8"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="66.0"/>
+  </properties>
+  <testcase name="testRechercheInfructueuse" classname="selenium4.RechercheTest" time="7.054">
+    <system-err><![CDATA[nov. 19, 2025 9:28:49 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+AVERTISSEMENT: Unable to find CDP implementation matching 142
+nov. 19, 2025 9:28:49 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+AVERTISSEMENT: Unable to find version of CDP to use for 142.0.7444.162. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.19.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="testRecherche" classname="selenium4.RechercheTest" time="12.566">
+    <system-out><![CDATA[5
+14,28 €
+14.28 
+14,28 €
+14.28 
+14,28 €
+14.28 
+16,68 €
+16.68 
+42,00 €
+42.00 
+14,28 €]]></system-out>
+    <system-err><![CDATA[nov. 19, 2025 9:28:56 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+AVERTISSEMENT: Unable to find CDP implementation matching 142
+nov. 19, 2025 9:28:56 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+AVERTISSEMENT: Unable to find version of CDP to use for 142.0.7444.162. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.19.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="testRechercheInfructueuseVide" classname="selenium4.RechercheTest" time="6.533">
+    <system-err><![CDATA[nov. 19, 2025 9:29:09 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+AVERTISSEMENT: Unable to find CDP implementation matching 142
+nov. 19, 2025 9:29:09 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+AVERTISSEMENT: Unable to find version of CDP to use for 142.0.7444.162. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.19.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+</testsuite>
