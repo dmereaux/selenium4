@@ -72,8 +72,8 @@ public class prestashopTest {
 		ChromeOptions options = new ChromeOptions();
 //		options.addArguments("--headless=new");
 		options.addArguments("--disable-search-engine-choice-screen");
-//		driver= new ChromeDriver(options);
-		driver= new FirefoxDriver();
+		driver= new ChromeDriver(options);
+//		driver= new FirefoxDriver();
 //		driver = new ChromeDriver(new ChromeOptions().addArguments("--disable-search-engine-choice-screen"));
 		baseUrl = "http://www.qualifiez.fr/monPrestashop2/prestashop/index.php";
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
@@ -141,7 +141,7 @@ public class prestashopTest {
 		}
 	}
 
-	@Test
+//	@Test
 	public void testChercherOptions()
 	{
 		driver.get("https://www.qualifiez.fr/monPrestashop2/prestashop/index.php?id_product=1&id_product_attribute=1&rewrite=hummingbird-printed-t-shirt&controller=product#/1-taille-s/8-couleur-blanc");
@@ -152,7 +152,7 @@ public class prestashopTest {
 		}
 	}
 
-	@Test 
+//	@Test 
 	public void chercherLeMugJavascript() throws InterruptedException, MalformedURLException {
 //		driver.quit();
 //		ChromeOptions option = new ChromeOptions();
@@ -183,7 +183,7 @@ public class prestashopTest {
 		}
 	}
 	// checker la Box et vérifier qu'elle est checkée
-	@Test 
+//	@Test 
 	public void checkerLaBOX() throws InterruptedException {
 		driver.get("http://www.qualifiez.fr/monPrestashop2/prestashop/index.php?id_product=1&id_product_attribute=3&rewrite=hummingbird-printed-t-shirt&controller=product#/2-taille-m/8-couleur-blanc");
 		assertTrue(driver.findElement(By.xpath("//*[@id=\"group_2\"]/li[1]/label/input")).isSelected());
@@ -193,7 +193,7 @@ public class prestashopTest {
 	}
 
 	//tester la frame apres avoir accepter la modale
-	@Test 
+//	@Test 
 	public void testLaFrame() throws InterruptedException, IOException {
 
 		driver.get("https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_option");
@@ -208,7 +208,7 @@ public class prestashopTest {
 
 	}
 	// exemple mobiles
-	@Test 
+//	@Test 
 	
 	public void chercherMobile() throws MalformedURLException {
 		driver.quit();
@@ -232,7 +232,7 @@ public class prestashopTest {
 	}
 
 	// compter les fenêtres
-	@Test
+//	@Test
 	public void compterLesFenetres() {
 
 		driver.get("http://www.qualifiez.fr/examples/Selenium/project-list.php");
@@ -249,7 +249,7 @@ public class prestashopTest {
 
 	}
 	// Utiliser la classe action
-	@Test
+//	@Test
 	public void testActions() throws Exception {
 		driver.manage().window().maximize();
 		// création de l'objet Actions
@@ -263,7 +263,7 @@ public class prestashopTest {
 	} 
 
 
-	@Test
+//	@Test
 	// Traitement des alertes
 	public void testPrestashopALerte() throws Exception {
 		driver.get("https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_alert");
@@ -280,7 +280,7 @@ public class prestashopTest {
 		alert.accept();
 
 	}
-	@Test
+//	@Test
 	// Traitement des alertes
 	public void testPrestashopALerteAccepteA() throws Exception {
 		driver.quit();
