@@ -1,6 +1,11 @@
-/Users/dominiquemereaux/eclipse-workspace2/selenium4/src/test/java/selenium4/RechercheTest.java
-/Users/dominiquemereaux/eclipse-workspace2/selenium4/src/test/java/selenium4/Util.java
-/Users/dominiquemereaux/eclipse-workspace2/selenium4/src/test/java/selenium4/pageAccueil.java
-/Users/dominiquemereaux/eclipse-workspace2/selenium4/src/test/java/selenium4/pageRecherche.java
+/Users/dominiquemereaux/eclipse-workspace2/selenium4/src/test/java/selenium4/common/DriverFactory.java
+/Users/dominiquemereaux/eclipse-workspace2/selenium4/src/test/java/selenium4/common/Util.java
+/Users/dominiquemereaux/eclipse-workspace2/selenium4/src/test/java/selenium4/po/PageAccueil.java
+/Users/dominiquemereaux/eclipse-workspace2/selenium4/src/test/java/selenium4/po/PageAccueilDesktop.java
+/Users/dominiquemereaux/eclipse-workspace2/selenium4/src/test/java/selenium4/po/PageAccueilMobile.java
+/Users/dominiquemereaux/eclipse-workspace2/selenium4/src/test/java/selenium4/po/PageRecherche.java
+/Users/dominiquemereaux/eclipse-workspace2/selenium4/src/test/java/selenium4/po/PageRechercheDesktop.java
+/Users/dominiquemereaux/eclipse-workspace2/selenium4/src/test/java/selenium4/po/PageRechercheMobile.java
 /Users/dominiquemereaux/eclipse-workspace2/selenium4/src/test/java/selenium4/prestashopTest.java
+/Users/dominiquemereaux/eclipse-workspace2/selenium4/src/test/java/selenium4/test/RechercheTest.java
 /Users/dominiquemereaux/eclipse-workspace2/selenium4/src/test/java/selenium4/testParametre.java

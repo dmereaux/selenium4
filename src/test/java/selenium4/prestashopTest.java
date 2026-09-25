@@ -43,6 +43,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.google.common.io.Files;
 
+import selenium4.common.DriverFactory;
+
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.interactions.*;
@@ -73,6 +75,7 @@ public class prestashopTest {
 //		options.addArguments("--headless=new");
 		options.addArguments("--disable-search-engine-choice-screen");
 		driver= new ChromeDriver(options);
+//		driver=DriverFactory.makeBrowser(DriverFactory.BrowserType.Chrome);
 //		driver= new FirefoxDriver();
 //		driver = new ChromeDriver(new ChromeOptions().addArguments("--disable-search-engine-choice-screen"));
 		baseUrl = "http://www.qualifiez.fr/monPrestashop2/prestashop/index.php";
@@ -183,7 +186,7 @@ public class prestashopTest {
 		}
 	}
 	// checker la Box et vérifier qu'elle est checkée
-//	@Test 
+	@Test 
 	public void checkerLaBOX() throws InterruptedException {
 		driver.get("http://www.qualifiez.fr/monPrestashop2/prestashop/index.php?id_product=1&id_product_attribute=3&rewrite=hummingbird-printed-t-shirt&controller=product#/2-taille-m/8-couleur-blanc");
 		assertTrue(driver.findElement(By.xpath("//*[@id=\"group_2\"]/li[1]/label/input")).isSelected());
@@ -208,7 +211,7 @@ public class prestashopTest {
 
 	}
 	// exemple mobiles
-//	@Test 
+	@Test 
 	
 	public void chercherMobile() throws MalformedURLException {
 		driver.quit();

@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: selenium4.prestashopTest
+Test set: selenium4.test.RechercheTest
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 42.06 s -- in selenium4.prestashopTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 25.74 s -- in selenium4.test.RechercheTest

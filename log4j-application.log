@@ -1,10 +1,65 @@
-2025-10-17 14:56:34 INFO  prestashopTest:125 - Etape saisie recherche
-2025-10-17 14:57:28 INFO  prestashopTest:125 - Etape saisie recherche
-2025-10-17 14:58:20 DEBUG prestashopTest:121 - creation de l'objet de type  WebDriverWait
-2025-10-17 14:58:20 INFO  prestashopTest:125 - Etape saisie recherche
-2025-11-16 23:52:32 DEBUG prestashopTest:122 - creation de l'objet de type  WebDriverWait
-2025-11-16 23:52:32 INFO  prestashopTest:126 - Etape saisie recherche
-2025-11-19 21:27:59 DEBUG prestashopTest:122 - creation de l'objet de type  WebDriverWait
-2025-11-19 21:27:59 INFO  prestashopTest:126 - Etape saisie recherche
-2025-11-20 22:30:50 DEBUG prestashopTest:123 - creation de l'objet de type  WebDriverWait
-2025-11-20 22:30:50 INFO  prestashopTest:127 - Etape saisie recherche
+
+2025-11-29 20:23:55 INFO  prestashopTest:54 - création du driver
+2025-11-29 20:24:01 INFO  prestashopTest:20 - lancer recherche sur mobile
+2025-11-29 20:46:02 INFO  prestashopTest:67 - création du driver
+2025-11-29 20:46:09 INFO  prestashopTest:20 - lancer recherche sur mobile
+2025-11-29 20:48:50 INFO  prestashopTest:67 - création du driver
+2025-11-29 20:48:56 INFO  prestashopTest:20 - lancer recherche sur mobile
+2025-11-29 21:24:08 INFO  prestashopTest:71 - création du driver
+2025-11-29 21:24:14 INFO  prestashopTest:20 - lancer recherche sur mobile
+2025-11-29 21:24:17 INFO  prestashopTest:71 - création du driver
+2025-11-29 21:24:22 INFO  prestashopTest:20 - lancer recherche sur mobile
+2025-11-29 21:24:27 INFO  prestashopTest:71 - création du driver
+2025-11-29 21:24:32 INFO  prestashopTest:20 - lancer recherche sur mobile
+2025-11-29 21:24:35 INFO  prestashopTest:71 - création du driver
+2025-11-29 21:24:40 INFO  prestashopTest:20 - lancer recherche sur mobile
+2025-11-29 21:29:04 INFO  prestashopTest:73 - création du driver
+2025-11-29 21:29:10 INFO  prestashopTest:22 - lancer une recherche
+2025-11-29 21:31:41 INFO  prestashopTest:74 - création du driver
+2025-11-29 21:31:47 INFO  prestashopTest:88 - création page desktop
+2025-11-29 21:31:47 INFO  prestashopTest:22 - lancer une recherche
+2025-11-29 21:33:53 INFO  prestashopTest:74 - création du driver
+2025-11-29 21:33:58 INFO  prestashopTest:88 - création page desktop
+2025-11-29 21:33:58 INFO  prestashopTest:22 - lancer une recherche
+2025-11-29 21:34:55 INFO  prestashopTest:74 - création du driver
+2025-11-29 21:35:01 INFO  prestashopTest:81 - affichagemobile
+2025-11-29 21:35:01 INFO  prestashopTest:89 - création page desktop
+2025-11-29 21:35:01 INFO  prestashopTest:22 - lancer une recherche
+2025-11-29 21:36:40 INFO  prestashopTest:74 - création du driver
+2025-11-29 21:36:45 INFO  prestashopTest:81 - affichagemobile
+2025-11-29 21:36:45 INFO  prestashopTest:84 - création page mobile
+2025-11-29 21:36:45 INFO  prestashopTest:20 - lancer recherche sur mobile
+2025-11-29 21:38:38 INFO  prestashopTest:74 - création du driver
+2025-11-29 21:38:43 INFO  prestashopTest:81 - affichagedesktop
+2025-11-29 21:38:43 INFO  prestashopTest:89 - création page desktop
+2025-11-29 21:38:43 INFO  prestashopTest:22 - lancer une recherche
+2025-11-29 21:39:10 INFO  prestashopTest:74 - création du driver
+2025-11-29 21:39:13 INFO  prestashopTest:81 - affichagedesktop
+2025-11-29 21:39:13 INFO  prestashopTest:89 - création page desktop
+2025-11-29 21:39:13 INFO  prestashopTest:22 - lancer une recherche
+2025-11-29 21:39:34 INFO  prestashopTest:74 - création du driver
+2025-11-29 21:39:37 INFO  prestashopTest:81 - affichagedesktop
+2025-11-29 21:39:37 INFO  prestashopTest:89 - création page desktop
+2025-11-29 21:39:37 INFO  prestashopTest:22 - lancer une recherche
+2025-11-29 21:40:59 INFO  prestashopTest:74 - création du driver
+2025-11-29 21:41:05 INFO  prestashopTest:81 - affichagedesktop
+2025-11-29 21:41:05 INFO  prestashopTest:89 - création page desktop
+2025-11-29 21:41:05 INFO  prestashopTest:22 - lancer une recherche
+2025-11-29 21:49:22 INFO  prestashopTest:74 - création du driver
+2025-11-29 21:49:26 INFO  prestashopTest:81 - affichagedesktop
+2025-11-29 21:49:26 INFO  prestashopTest:89 - création page desktop
+2025-11-29 21:49:26 INFO  prestashopTest:22 - lancer une recherche
+2025-11-29 21:49:28 INFO  prestashopTest:74 - création du driver
+2025-11-29 21:49:31 INFO  prestashopTest:81 - affichagedesktop
+2025-11-29 21:49:31 INFO  prestashopTest:89 - création page desktop
+2025-11-29 21:49:31 INFO  prestashopTest:22 - lancer une recherche
+2025-11-29 21:49:36 INFO  prestashopTest:74 - création du driver
+2025-11-29 21:49:39 INFO  prestashopTest:81 - affichagedesktop
+2025-11-29 21:49:39 INFO  prestashopTest:89 - création page desktop
+2025-11-29 21:49:39 INFO  prestashopTest:22 - lancer une recherche
+2025-11-29 21:49:42 INFO  prestashopTest:74 - création du driver
+2025-11-29 21:49:45 INFO  prestashopTest:81 - affichagedesktop
+2025-11-29 21:49:45 INFO  prestashopTest:89 - création page desktop
+2025-11-29 21:49:45 INFO  prestashopTest:22 - lancer une recherche
+2025-11-29 21:49:50 DEBUG prestashopTest:126 - creation de l'objet de type  WebDriverWait
+2025-11-29 21:49:50 INFO  prestashopTest:130 - Etape saisie recherche

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="selenium4.prestashopTest" time="42.062" tests="6" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="selenium4.test.RechercheTest" time="25.738" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="22"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -38,16 +38,13 @@
     <property name="user.name" value="dominiquemereaux"/>
     <property name="stdout.encoding" value="UTF-8"/>
     <property name="path.separator" value=":"/>
-    <property name="otel.metrics.exporter" value="none"/>
     <property name="os.version" value="15.6.1"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
-    <property name="otel.traces.exporter" value="none"/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
     <property name="java.vendor.version" value="Temurin-22.0.1+8"/>
     <property name="localRepository" value="/Users/dominiquemereaux/.m2/repository"/>
     <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
-    <property name="otel.logs.exporter" value="none"/>
     <property name="java.io.tmpdir" value="/var/folders/3b/z_3bn4n12j59v3g7l9pm1x8r0000gn/T/"/>
     <property name="java.version" value="22.0.1"/>
     <property name="user.dir" value="/Users/dominiquemereaux/eclipse-workspace2/selenium4"/>
@@ -63,39 +60,45 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="66.0"/>
   </properties>
-  <testcase name="chercherLeMugAttenteCliquable" classname="selenium4.prestashopTest" time="5.42">
-    <system-out><![CDATA[2025-11-29 21:49:50 DEBUG prestashopTest:126 - creation de l'objet de type  WebDriverWait
-2025-11-29 21:49:50 INFO  prestashopTest:130 - Etape saisie recherche
+  <testcase name="testRechercheInfructueuse" classname="selenium4.test.RechercheTest" time="6.493">
+    <system-out><![CDATA[Firefox
+desktop
+2025-11-29 21:49:22 INFO  prestashopTest:74 - création du driver
+2025-11-29 21:49:26 INFO  prestashopTest:81 - affichagedesktop
+2025-11-29 21:49:26 INFO  prestashopTest:89 - création page desktop
+2025-11-29 21:49:26 INFO  prestashopTest:22 - lancer une recherche
 ]]></system-out>
-    <system-err><![CDATA[nov. 29, 2025 9:49:48 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-AVERTISSEMENT: Unable to find an exact match for CDP version 142, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 142
-]]></system-err>
   </testcase>
-  <testcase name="testPrestashopParam(String, String)[1]" classname="selenium4.prestashopTest" time="5.38">
-    <system-err><![CDATA[nov. 29, 2025 9:49:54 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-AVERTISSEMENT: Unable to find an exact match for CDP version 142, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 142
-]]></system-err>
+  <testcase name="testRechercheAvecTri" classname="selenium4.test.RechercheTest" time="7.507">
+    <system-out><![CDATA[2025-11-29 21:49:28 INFO  prestashopTest:74 - création du driver
+2025-11-29 21:49:31 INFO  prestashopTest:81 - affichagedesktop
+2025-11-29 21:49:31 INFO  prestashopTest:89 - création page desktop
+a implémenter2025-11-29 21:49:31 INFO  prestashopTest:22 - lancer une recherche
+5
+14,28 €
+14.28 
+14,28 €
+14.28 
+14,28 €
+14.28 
+16,68 €
+16.68 
+42,00 €
+42.00 
+14,28 €]]></system-out>
   </testcase>
-  <testcase name="testPrestashopParam(String, String)[2]" classname="selenium4.prestashopTest" time="6.32">
-    <system-err><![CDATA[nov. 29, 2025 9:49:59 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-AVERTISSEMENT: Unable to find an exact match for CDP version 142, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 142
-]]></system-err>
+  <testcase name="testRecherche" classname="selenium4.test.RechercheTest" time="5.743">
+    <system-out><![CDATA[2025-11-29 21:49:36 INFO  prestashopTest:74 - création du driver
+2025-11-29 21:49:39 INFO  prestashopTest:81 - affichagedesktop
+2025-11-29 21:49:39 INFO  prestashopTest:89 - création page desktop
+2025-11-29 21:49:39 INFO  prestashopTest:22 - lancer une recherche
+]]></system-out>
   </testcase>
-  <testcase name="testPrestashopParam(String, String)[3]" classname="selenium4.prestashopTest" time="6.296">
-    <system-err><![CDATA[nov. 29, 2025 9:50:05 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-AVERTISSEMENT: Unable to find an exact match for CDP version 142, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 142
-]]></system-err>
-  </testcase>
-  <testcase name="checkerLaBOX" classname="selenium4.prestashopTest" time="6.5">
-    <system-err><![CDATA[nov. 29, 2025 9:50:12 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-AVERTISSEMENT: Unable to find an exact match for CDP version 142, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 142
-]]></system-err>
-  </testcase>
-  <testcase name="chercherMobile" classname="selenium4.prestashopTest" time="12.124">
-    <system-err><![CDATA[nov. 29, 2025 9:50:18 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-AVERTISSEMENT: Unable to find an exact match for CDP version 142, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 142
-nov. 29, 2025 9:50:21 PM org.openqa.selenium.remote.tracing.opentelemetry.OpenTelemetryTracer createTracer
-INFOS: Using OpenTelemetry for tracing
-]]></system-err>
+  <testcase name="testRechercheInfructueuseVide" classname="selenium4.test.RechercheTest" time="5.931">
+    <system-out><![CDATA[2025-11-29 21:49:42 INFO  prestashopTest:74 - création du driver
+2025-11-29 21:49:45 INFO  prestashopTest:81 - affichagedesktop
+2025-11-29 21:49:45 INFO  prestashopTest:89 - création page desktop
+2025-11-29 21:49:45 INFO  prestashopTest:22 - lancer une recherche
+]]></system-out>
   </testcase>
 </testsuite>

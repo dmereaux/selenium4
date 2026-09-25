@@ -1,4 +1,4 @@
-package selenium4;
+package selenium4.po;
 
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -18,11 +18,11 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 
 
-public class pageRecherche {
+public abstract class PageRecherche {
 
 	private WebDriver driverRecherche;
-	@FindBy(how = How.XPATH, using = "//*[@id='js-product-list-top']/div[1]/p")
-    private WebElement resRecherche;
+//	@FindBy(how = How.XPATH, using = "//*[@id='js-product-list-top']/div[1]/p")
+//    private WebElement resRecherche;
 	@FindBy(how = How.XPATH, using = "//*[@id=\"product-search-no-matches\"]")
 	private WebElement rienTrouve;
 	@FindBy(how = How.XPATH, using = "//*[@id='js-product-list-top']/div[2]/div/div/button")
@@ -41,21 +41,21 @@ public class pageRecherche {
 	WebDriverWait wait;
 
 
-   public pageRecherche(WebDriver driverAccueil) throws InterruptedException {
+   public PageRecherche(WebDriver driverAccueil) throws InterruptedException {
 		driverRecherche = driverAccueil;
 		wait = new WebDriverWait(driverRecherche, Duration.ofSeconds(10));
 		wait.until(ExpectedConditions.titleContains("Rechercher"));
 	}
-   public String nbElementTrouve()
-   {
-	   return resRecherche.getText();
-   }
+   public abstract String nbElementTrouve();
+//   {
+//	   return resRecherche.getText();
+//   }
    public String PasDeResultat()
    
    {
 	   return rienTrouve.getText();
    }
-   public pageRecherche trier(String item) throws InterruptedException
+   public PageRecherche trier(String item) throws InterruptedException
    {
 	   listeTri.click();
 	   for (WebElement elt :items )
@@ -104,4 +104,5 @@ public String recupererPremierPrix() {
 
     return premierPrix.getText();
 }
+public abstract String getResultat();
 }
